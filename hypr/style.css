@@ -1,0 +1,88 @@
+* {
+    border: none;
+    border-radius: 5px;
+    font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace;
+    font-size: 13px;
+    font-weight: 600;
+
+    min-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+window#waybar {
+      background: transparent;
+}
+
+tooltip {
+  background: rgba(43, 48, 59, 0.5);
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+tooltip label {
+  color: azure;
+}
+
+#workspaces {
+    background-color: alpha(rgb(231, 242, 255), 0.8);
+}
+
+#workspaces button {
+    transition: all 150ms ease-in-out;
+    padding: 0 5px;
+    margin: 0 2px;
+    color: rgb(0, 0, 0);
+}
+
+#workspaces button.active {
+    min-width: 50px;
+    font-weight: 800;
+    background: #33415C;
+    color: alpha(azure, 0.8);
+}
+
+
+#clock {
+      font-weight: 800;
+      font-size: 14px;
+      color: alpha(azure, 0.8);
+      padding: 1px 0;
+}
+
+#battery {
+      background-color: #002855;
+      color: alpha(azure, 0.8);
+      margin: 0 10px;
+      padding: 0 5px;
+      font-weight: 500;
+      min-width: 65px;
+}
+
+#pulseaudio {
+    background-color: #023E7D;
+    color: alpha(azure, 0.8);
+    padding: 0 5px;
+    font-weight: 500;
+    min-width: 65px;
+}
+
+#network {
+      background-color: #0353A4;
+      margin: 0 10px;
+      color: alpha(azure, 0.8);
+      padding: 0 5px;
+      font-weight: 500;
+      min-width: 100px;
+}
+
+#backlight {
+      background-color: alpha(#33415C, 0.8);
+      margin: 0 10px;
+      color: alpha(azure, 0.8);
+      padding: 0 20px;
+}
+
+#mpris {
+      background-color: #979DAC;
+      color: alpha(black, 0.8);
+      padding: 0 10px;
+}
